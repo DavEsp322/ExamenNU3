@@ -16,6 +16,10 @@ article{
   font-family: helvetica;
   font-size: 20px;
 }
+.boton{
+  background-color: #3d1060;
+  color: white;
+}
 
 .nav-item{
   margin-right: 25px;
@@ -41,6 +45,17 @@ article{
   padding: 50px;
 }
 
+.item-parrafo{
+  margin: 50px 40px;
+  width: 90%;
+}
+
+.formulario{
+  margin: 50px 20px;
+}
+.caja{
+  width: 60% !important;
+}
 .parrafo{
   margin: 10px 50px;
 }
@@ -54,9 +69,12 @@ article{
     margin-bottom: 10px;
     height: 35px;
   }
+  .formulario{
+    display: none;
+  }
 }
 
-@media (min-width:991px) {
+@media (min-width:992px) {
   .icono{
     float: left;
   }
@@ -69,5 +87,11 @@ article{
   }
   .navigation{
     max-height: 100px;
+  }
+}
+
+@media (max-width:576px) {
+  .navbar{
+    position: static;
   }
 }
