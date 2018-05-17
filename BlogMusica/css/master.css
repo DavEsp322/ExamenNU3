@@ -25,6 +25,10 @@ article{
   margin-right: 25px;
 }
 
+.busqueda{
+  width: 35%; 
+}
+
 .nav-bar{
   min-height: 50px;
   color: white;
