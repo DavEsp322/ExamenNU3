@@ -1,7 +1,8 @@
 body{
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: cover;
+  background-attachment: fixed;
 }
 
 .contenedor{
