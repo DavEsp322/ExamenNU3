@@ -6,6 +6,8 @@ body{
 
 .contenedor{
   background-color: rgba(230,230,230,0.2);
+  border-radius: 3px;
+  padding: 5px;
 }
 
 .busqueda{
@@ -14,12 +16,21 @@ body{
   margin: 4px;
 }
 
+.comentario{
+  min-width: 100%;
+}
+
+.fecha-entrada{
+  color: #2ba6cb;
+}
+
 .boton{
   margin: 6px;
 }
 
 .navegacion{
   float: left !important;
+  width: 100%;
 }
 
 .columna{
@@ -27,5 +38,15 @@ body{
 }
 
 .imagen{
-  margin: 10px 2px;
+  margin: 5px 2px;
+}
+
+.caja-comentarios{
+  border-radius: 5px;
+}
+
+.avatar{
+  width: 70px;
+  float: left;
+  margin: 7px;
 }
