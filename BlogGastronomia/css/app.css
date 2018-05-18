@@ -1,0 +1,31 @@
+body{
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contenedor{
+  background-color: rgba(230,230,230,0.2);
+}
+
+.busqueda{
+  width: 70%;
+  float: left;
+  margin: 4px;
+}
+
+.boton{
+  margin: 6px;
+}
+
+.navegacion{
+  float: left !important;
+}
+
+.columna{
+  clear: both;
+}
+
+.imagen{
+  margin: 10px 2px;
+}
