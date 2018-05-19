@@ -6,7 +6,7 @@ body{
 }
 
 .contenedor{
-  background-color: rgba(230,230,230,0.2);
+  background-color: rgba(0,0,0,0.3);
   border-radius: 3px;
   padding: 5px;
 }
