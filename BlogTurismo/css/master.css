@@ -11,6 +11,16 @@ body{
   border-radius: 5px;
 }
 
+.contenedor{
+  background-color: rgba(255,255,255,0.2);
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.card-title{
+  font-size: 40px !important;
+}
+
 .header{
   background-color: rgba(0,0,0,0.4);
   margin: 0px;
@@ -23,6 +33,28 @@ body{
   position: fixed;
   left: 1px;
   top: 200px;
+}
+
+.chip-icon{
+  line-height: 32px;
+  margin-left: 5px !important;
+}
+
+.foto-perfil{
+  width: 250px;
+  margin: 10px;
+}
+
+.imagen-parrafo{
+  width: 100%;
+}
+
+.enviar{
+  line-height: 20px !important;
+}
+
+.expandido{
+  width: 100%;
 }
 
 .iconos{
@@ -56,7 +88,7 @@ body{
 }
 
 .imagen-derecha{
-  width: 50%;
+  width: 98%;
   margin: 20px 1px;
 }
 
@@ -65,8 +97,7 @@ body{
     text-align: center;
   }
   .redes{
-    position: fixed;
-    left: 1px;
-    top: 300px;
+    position: absolute;
+    margin-top: 100px;
   }
 }
