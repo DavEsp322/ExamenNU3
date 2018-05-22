@@ -14,11 +14,30 @@ body{
 .header{
   background-color: rgba(0,0,0,0.4);
   margin: 0px;
+  text-align: center;
+}
+
+.redes{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 1px;
+  top: 200px;
+}
+
+.iconos{
+  width: 50px;
+  margin: 20px 0px;
+}
+
+.texto{
+  margin: 25px;
 }
 
 .slogan{
   font-weight: bold;
   font-size: 20px;
+  padding: 10px !important;
 }
 
 .clearfix::after{
@@ -27,10 +46,27 @@ body{
   display: block;
 }
 
-.fijo{
-  background-color: rgba(0, 0, 208, 0.2);
-  background: rgba(0, 0, 208, 0.2);
-  color: rgba(0, 0, 208, 0.5);
-  height: 500px;
-  position: fixed;
+.boton{
+  padding: 0px 9px;
+}
+
+.imagen{
+  width: 100%;
+  margin: 20px 1px;
+}
+
+.imagen-derecha{
+  width: 50%;
+  margin: 20px 1px;
+}
+
+@media (max-width:992px) {
+  .header{
+    text-align: center;
+  }
+  .redes{
+    position: fixed;
+    left: 1px;
+    top: 300px;
+  }
 }
