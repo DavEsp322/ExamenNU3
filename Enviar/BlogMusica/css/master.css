@@ -1,0 +1,101 @@
+.nopadding{
+  padding: 0px;
+}
+
+.nomargin{
+  margin: 0px;
+  padding: 1px;
+}
+
+.navigation{
+  background-color: #AC58FA ;
+  max-height: 250px;
+}
+
+article{
+  font-family: helvetica;
+  font-size: 20px;
+}
+.boton{
+  background-color: #3d1060;
+  color: white;
+}
+
+.nav-item{
+  margin-right: 25px;
+}
+
+.busqueda{
+  width: 35%; 
+}
+
+.nav-bar{
+  min-height: 50px;
+  color: white;
+  background-color: #3d1060;
+  margin-top: -2px;
+}
+.icono{
+  height: 100px;
+}
+
+.social{
+  height: 55px;
+  margin-top: 40px;
+  margin-right: 5px;
+}
+
+.encabezado{
+  padding: 50px;
+}
+
+.item-parrafo{
+  margin: 50px 40px;
+  width: 90%;
+}
+
+.formulario{
+  margin: 50px 20px;
+}
+.caja{
+  width: 60% !important;
+}
+.parrafo{
+  margin: 10px 50px;
+}
+
+@media (max-width:992px) {
+  .navrow{
+    text-align: center;
+  }
+  .social{
+    margin-top: -5px;
+    margin-bottom: 10px;
+    height: 35px;
+  }
+  .formulario{
+    display: none;
+  }
+}
+
+@media (min-width:992px) {
+  .icono{
+    float: left;
+  }
+  .social{
+    height: 30px;
+    float: right;
+    padding: 0px;
+    margin-right: 10px;
+    margin-top: 60px;
+  }
+  .navigation{
+    max-height: 100px;
+  }
+}
+
+@media (max-width:576px) {
+  .navbar{
+    position: static;
+  }
+}
