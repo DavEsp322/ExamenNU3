@@ -49,9 +49,10 @@ body{
   width: 100%;
 }
 
-.enviar{
-  line-height: 20px !important;
+.icono{
+  font-size: 15px !important;
 }
+
 
 .expandido{
   width: 100%;
